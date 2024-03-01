@@ -16,3 +16,10 @@ double readnum(double num){
     std::cin>>num;
     return(num);
 }
+
+double suma(double n1, double n2){
+    return(n1+n2);
+}
+double resta(double n1, double n2){
+    return(n1-n2);
+}
