@@ -10,3 +10,9 @@ int menu{
 
     return 0;
 }
+
+double readnum(double num){
+    std::cout<<"Ingrese un número: "<<std::endl;
+    std::cin>>num;
+    return(num);
+}
