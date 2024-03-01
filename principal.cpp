@@ -2,16 +2,17 @@
 #include<cmath>
 #include<cstdlib>
 
-int menu{
+int menu(){
     int opc;
     std::cout<<"::::Menu calculadora::::"<<std::endl;
-    std::cout<<"\t1. Suma \n\t2.Resta \n\t3. Multiplicación \n\t4.División"<<std::endl;
+    std::cout<<"\t1. Suma \n\t2. Resta \n\t3. Multiplicación \n\t4. División"<<std::endl;
     std::cin>>opc;
 
-    return 0;
+    return opc;
 }
 
-double readnum(double num){
+double readnum(){
+    double num;
     std::cout<<"Ingrese un número: "<<std::endl;
     std::cin>>num;
     return(num);
